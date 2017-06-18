@@ -1,15 +1,16 @@
 //Code to Add Two Numbers
 
-var A = 12
-var B = 10
+var A = 12;
+var B = 10;
 alert(A+B)
+
 
 
 //Add to strings
 
-var A = "12"
+var A = "12";
 
-var B = "10"
+var B = "10";
 
 alert(A+B)
 
@@ -20,37 +21,36 @@ alert(A+B)
 var num= 120
 
 if(num>100) {
-	alert("The number entered is greater then 100.")
+	alert("The number entered is greater then 100.");
 }
 else{
 
-	alert( "The Numeber" + num +" is less then 100")
+	alert( "The Numeber" + num +" is less then 100");
 }
 
-//Function with Name as argument & print
 
- alert(getGivenName('Mark'))
+
+//Function with Name as argument & print
 
 function getGivenName(n){
  return(n)
 }
+ alert(getGivenName('Mark'))
+
 
 
 // Showing if, else if, else
 
 
-var d=2
-alert(getPrize(d))
-
 function getPrize(n) {
 
 	if(n=1) {
 
-		alert("You have won trip to Rio")
+		alert("You have won trip to Rio");
 	}
 
 	else if (n=2) {
-		alert("You have won Car ")
+		alert("You have won Car ");
 
 	}
 
@@ -60,4 +60,6 @@ function getPrize(n) {
 
 
 }
+alert(getPrize(2))
+
 
